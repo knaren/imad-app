@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var img = document.getElementById('madi');
-Function moveRight () {
+function moveRight () {
     marginLeft = marginLeft + 10;
 }
 img.onclick = function () {
